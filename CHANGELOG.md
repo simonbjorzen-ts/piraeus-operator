@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add image configuration for CSI sidecars.
 - Check kernel module parameters for DRBD on load.
 - Automatically set SELinux labels when loading kernel modules.
+- Report `seLinuxMount` capability for the CSI Driver, speeding up volume mounts with SELinux
+  relabelling enabled.
 
 ### Changed
 
